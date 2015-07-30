@@ -1,0 +1,33 @@
+options(digits=4)
+length=c(1,50,100)
+s1s1=c(0.028585,0.029030,0.029120)
+s5s1=c(0.028840,0.028450,0.029315)
+all=cbind(length,s1s1,s5s1)
+
+
+d <- data.frame(length=c(1,50,100), s1s1=c(0.028585,0.029030,0.029120),s5s1=c(0.028840,0.028450,0.029315))
+
+fit1 = lm(time1~length)
+
+
+
+fit2 = lm(time2~length)
+
+
+plot(length,time1,xlim=c(-5,110),col="black", bg = "black", lty=1,pch=c(21))
+plot(length,time1,xlim=c(-5,110),col="black", bg = "black", lty=1,pch=c(21))
+
+
+
+points(length,time2,col="red", bg = "red", lty=1,pch=c(24))
+
+coef(fit)
+abline(fit$coef)
+summary(aov(fit)) 
+
+
+
+
+
+predict(fit, newdata = data.frame(length = 10)) #예상값구하기
+cor(length, time) #상관계수

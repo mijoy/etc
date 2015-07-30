@@ -1,0 +1,175 @@
+#pdf("sleep1(cable).pdf")
+
+x=c(5,10,15,20)
+l=c("v1","v2c","v3r","v3w")
+
+#1m
+s1.1m=c(0.024350,0.024370,0.035785,0.035540)*1000
+s2.1m=c(0.024450,0.024420,0.035555,0.035535)*1000
+s3.1m=c(0.024305,0.024390,0.035620,0.035535)*1000
+s4.1m=c(0.024410,0.024370,0.035700,0.035470)*1000
+s5.1m=c(0.024500,0.024465,0.035605,0.035365)*1000
+
+#10m
+s1.10m=c(0.024450,0.024445,0.035475,0.035530)*1000
+s2.10m=c(0.024430,0.024370,0.035390,0.035590)*1000
+s3.10m=c(0.024500,0.024630,0.035235,0.035450)*1000
+s4.10m=c(0.024485,0.024740,0.035415,0.035425)*1000
+s5.10m=c(0.024620,0.024650,0.035290,0.035385)*1000
+
+#20m
+s1.20m=c(0.024585,0.024350,0.035335,0.035230)*1000
+s2.20m=c(0.024520,0.024340,0.035270,0.035415)*1000
+s3.20m=c(0.024310,0.024355,0.035400,0.035320)*1000
+s4.20m=c(0.024445,0.024285,0.035225,0.035305)*1000
+s5.20m=c(0.024455,0.024385,0.035280,0.035210)*1000
+
+#30m
+s1.30m=c(0.024125,0.024435,0.034845,0.035455)*1000
+s2.30m=c(0.024150,0.024145,0.034825,0.034860)*1000
+s3.30m=c(0.024270,0.024175,0.034775,0.035660)*1000
+s4.30m=c(0.024545,0.024725,0.035675,0.035885)*1000
+s5.30m=c(0.024740,0.024675,0.035720,0.035735)*1000
+
+#40m
+s1.40m=c(0.024785,0.024765,0.035950,0.035800)*1000
+s2.40m=c(0.024525,0.024845,0.035665,0.035900)*1000
+s3.40m=c(0.024710,0.024955,0.035685,0.035750)*1000
+s4.40m=c(0.024810,0.024730,0.035760,0.035675)*1000
+s5.40m=c(0.024700,0.024785,0.035750,0.035775)*1000
+
+#50m
+s1.50m=c(0.024735,0.024830,0.035765,0.035930)*1000
+s2.50m=c(0.024660,0.024725,0.035720,0.035805)*1000
+s3.50m=c(0.024595,0.024855,0.035955,0.035925)*1000
+s4.50m=c(0.024890,0.024730,0.035850,0.035795)*1000
+s5.50m=c(0.024925,0.024745,0.035725,0.035840)*1000
+
+#100m
+s1.100m=c(0.024900,0.024870,0.035855,0.035725)*1000
+s2.100m=c(0.024620,0.024690,0.035860,0.035860)*1000
+s3.100m=c(0.024620,0.024775,0.035785,0.036020)*1000
+s4.100m=c(0.024595,0.024800,0.035925,0.035735)*1000
+s5.100m=c(0.024365,0.024520,0.035525,0.035590)*1000
+
+
+par(mfrow = c(8, 6), mar = c(0.25, 0, 0.25, 0.4), srt = 1)
+
+
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("1m", cex = 2, x = 0.5, y = 0.5)
+plot(x, s1.1m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+axis(side = 2)
+text(x, s1.1m, labels=l, cex= 0.7, pos=1)
+plot(x, s2.1m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s2.1m, labels=l, cex= 0.7, pos=1)
+plot(x, s3.1m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s3.1m, labels=l, cex= 0.7, pos=1)
+plot(x, s4.1m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s4.1m, labels=l, cex= 0.7, pos=1)
+plot(x, s5.1m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s5.1m, labels=l, cex= 0.7, pos=1)
+
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("10m", cex = 2, x = 0.5, y = 0.5)
+plot(x, s1.10m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+axis(side = 2)
+text(x, s1.10m, labels=l, cex= 0.7, pos=1)
+plot(x, s2.10m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s2.10m, labels=l, cex= 0.7, pos=1)
+plot(x, s3.10m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s3.10m, labels=l, cex= 0.7, pos=1)
+plot(x, s4.10m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s4.10m, labels=l, cex= 0.7, pos=1)
+plot(x, s5.10m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s5.10m, labels=l, cex= 0.7, pos=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("20m", cex = 2, x = 0.5, y = 0.5)
+plot(x, s1.20m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+axis(side = 2)
+text(x, s1.20m, labels=l, cex= 0.7, pos=1)
+plot(x, s2.20m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s2.20m, labels=l, cex= 0.7, pos=1)
+plot(x, s3.20m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s3.20m, labels=l, cex= 0.7, pos=1)
+plot(x, s4.20m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s4.20m, labels=l, cex= 0.7, pos=1)
+plot(x, s5.20m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s5.20m, labels=l, cex= 0.7, pos=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("30m", cex = 2, x = 0.5, y = 0.5)
+plot(x, s1.30m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+axis(side = 2)
+text(x, s1.30m, labels=l, cex= 0.7, pos=1)
+plot(x, s2.30m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s2.30m, labels=l, cex= 0.7, pos=1)
+plot(x, s3.30m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s3.30m, labels=l, cex= 0.7, pos=1)
+plot(x, s4.30m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s4.30m, labels=l, cex= 0.7, pos=1)
+plot(x, s5.30m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s5.30m, labels=l, cex= 0.7, pos=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("40m", cex = 2, x = 0.5, y = 0.5)
+plot(x, s1.40m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+axis(side = 2)
+text(x, s1.40m, labels=l, cex= 0.7, pos=1)
+plot(x, s2.40m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s2.40m, labels=l, cex= 0.7, pos=1)
+plot(x, s3.40m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s3.40m, labels=l, cex= 0.7, pos=1)
+plot(x, s4.40m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s4.40m, labels=l, cex= 0.7, pos=1)
+plot(x, s5.40m,axes=FALSE,box(),pch=c(3),col="red",xlim=c(0,25),ylim=c(23,39))
+text(x, s5.40m, labels=l, cex= 0.7, pos=1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch1", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch2", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch3", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch4", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch5", cex = 2, x = 0.5, y = 0.5)
+
+
+dev.off()
+

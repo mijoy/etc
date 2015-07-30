@@ -1,0 +1,115 @@
+pdf("s5s1.pdf")
+
+
+
+library(plotrix)
+
+time1 = round(c(0.024500,0.024620,0.024455,0.024740,0.024700,0.024925,0.024365), digits=5)
+time2 = round(c(0.024465,0.024650,0.024385,0.024675,0.024785,0.024745,0.024520), digits=5)
+time3 = round(c(0.035605,0.035290,0.035280,0.035720,0.035750,0.035725,0.035525), digits=5)
+time4 = round(c(0.035365,0.035385,0.035210,0.035735,0.035775,0.035840,0.035590), digits=5)
+
+
+leng = c(1,50,100)
+length = c(1,10,20,30,40,50,100)
+length2 = c(10,20,30,40)
+tt2<- time2*1000
+tt4<- time4*1000
+fit2 = lm(tt2~length)
+fit4 = lm(tt4~length)
+lmcoef<-coef(fit4)
+layout(rbind(1,2), heights=c(7,1))  # put legend on bottom 1/8th of the chart
+par(mar=c(5, 5, 4, 2) + 0.1)
+
+
+df2 <- data.frame(tt2)
+aa2 <- df2[c(1,6,7),]
+aa22 <- df2[c(2,3,4,5),]
+
+df4 <- data.frame(tt4)
+aa4 <- df4[c(1,6,7),]
+aa44 <- df4[c(2,3,4,5),]-2
+
+gap.plot(leng,aa2, gap=c(30,32), gap.axis="y", ylim=range(c(23,39)), ytics=c(23:29,33:39), xlim=c(-5,105), col="black", lty=1,pch=c(20),main = 'SNMP Time Response TEST',  sub="(Switch5 configuration)", xlab='cable length(m)', ylab='Response time(ms)')
+points(length2, aa22, col="darkmagenta", lty=1, pch=c(17))
+
+gap.plot(leng,aa4, gap=c(30,32), gap.axis="y", ylim=range(c(23,26)), ytics=c(23:26,33:39) , pch=20, col="black", add=TRUE)
+points(length2, aa44, col="darkmagenta", lty=1, pch=c(17))
+
+abline(fit2,col="red",lwd=1)
+abline(lmcoef[1]-2,lmcoef[2],col="red",lwd=1)
+grid(10, 10, lty = "dotted")
+
+text(103, 29.9, labels="SNMPv2c", cex= 0.7, pos=1)
+text(103, 37.5, labels="SNMPv3w", cex= 0.7, pos=1)
+
+
+#
+pred.int2 = predict(fit2,level=.95,interval="prediction")
+conf.int2 = predict(fit2,level=.95,interval="confidence")
+pred.lower2 = pred.int2[,2]
+pred.upper2 = pred.int2[,3]
+conf.lower2 = conf.int2[,2]
+conf.upper2 = conf.int2[,3]
+#
+pred.int4 = predict(fit4,level=.95,interval="prediction")
+conf.int4 = predict(fit4,level=.95,interval="confidence")
+pred.int4<-pred.int4-2
+conf.int4<-conf.int4-2
+pred.lower4 = pred.int4[,2]
+pred.upper4 = pred.int4[,3]
+conf.lower4 = conf.int4[,2]
+conf.upper4 = conf.int4[,3]
+
+#
+lines(length[1:1000],conf.lower2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower2[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper2[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, tt2, labels=tt2, cex= 0.7, pos=1)
+cal2=coef(fit2);cal2
+a2=cal2[1]+cal2[2]*10
+b2=cal2[1]+cal2[2]*20
+c2=cal2[1]+cal2[2]*30
+d2=cal2[1]+cal2[2]*40
+v2c=c(a2,b2,c2,d2)
+v2c = round(v2c, digits = 2)
+
+points(10,a2,col="red", bg = "red", lty=5,pch=c(4))
+points(20,b2,col="red", bg = "red", lty=5,pch=c(4))
+points(30,c2,col="red", bg = "red", lty=5,pch=c(4))
+points(40,d2,col="red", bg = "red", lty=5,pch=c(4))
+text(length2, v2c, labels=v2c, cex= 0.7, pos=3, col="red")
+#
+lines(length[1:1000],conf.lower4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower4[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper4[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, (tt4-2), labels=tt4, cex= 0.7, pos=1)
+cal4=coef(fit4);cal4
+a4=cal4[1]+cal4[2]*10
+b4=cal4[1]+cal4[2]*20
+c4=cal4[1]+cal4[2]*30
+d4=cal4[1]+cal4[2]*40
+v3w=c(a4,b4,c4,d4)
+v3w = round(v3w, digits = 2)
+v3w=v3w-2
+points(10,a4-2,col="red", bg = "red", lty=5,pch=c(4))
+points(20,b4-2,col="red", bg = "red", lty=5,pch=c(4))
+points(30,c4-2,col="red", bg = "red", lty=5,pch=c(4))
+points(40,d4-2,col="red", bg = "red", lty=5,pch=c(4))
+text(length2, v3w, labels=v3w, cex= 0.7, pos=3, col="red")
+
+par(mar=c(0, 0, 0, 0))
+plot.new()
+par(xpd=TRUE)
+legend(x = "center",inset = 1,
+        legend = c("linear fit","confidence limits","prediction limits","data","measurement value","prediction value"), 
+        col=c("red","green","blue","black","purple","red"),lwd=1, lty=c(1,2,2,NA,NA,NA), pch=c(NA,NA,NA,19,17,4), cex=0.5, horiz = TRUE, merge=FALSE)
+par(xpd=FALSE)
+
+
+
+
+
+dev.off()

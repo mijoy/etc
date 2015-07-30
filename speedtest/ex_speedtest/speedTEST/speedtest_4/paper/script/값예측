@@ -1,0 +1,37 @@
+options(digits=4)
+length=c(1,50,100)
+time=c(0.028585,0.029030,0.029120)
+fit = lm(time~length)
+plot(length,time,xlim=c(-5,110),col="black", bg = "black", lty=1,pch=c(21))
+coef(fit)
+abline(fit$coef)
+summary(aov(fit)) 
+
+predict(fit, newdata = data.frame(length = 10)) #예상값구하기
+cor(length, time) #상관계수
+
+
+
+
+predict(fit1, newdata = data.frame(length = 10))
+predict(fit1, newdata = data.frame(length = 20))
+predict(fit1, newdata = data.frame(length = 30))
+predict(fit1, newdata = data.frame(length = 40))
+
+
+predict(fit2, newdata = data.frame(length = 10))
+predict(fit2, newdata = data.frame(length = 20))
+predict(fit2, newdata = data.frame(length = 30))
+predict(fit2, newdata = data.frame(length = 40))
+
+
+predict(fit3, newdata = data.frame(length = 10))
+predict(fit3, newdata = data.frame(length = 20))
+predict(fit3, newdata = data.frame(length = 30))
+predict(fit3, newdata = data.frame(length = 40))
+
+
+predict(fit4, newdata = data.frame(length = 10))
+predict(fit4, newdata = data.frame(length = 20))
+predict(fit4, newdata = data.frame(length = 30))
+predict(fit4, newdata = data.frame(length = 40))

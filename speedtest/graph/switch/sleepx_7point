@@ -1,0 +1,153 @@
+pdf("sleepx_7point.pdf")
+
+#sleep1
+
+length=c(1,10,20,30,40,50,100)
+
+#switch1
+v1.1=c(0.025970,0.026090,0.025535,0.025455,0.026440,0.026205,0.026535)*1000
+v2c.1=c(0.026115,0.025865,0.025725,0.025680,0.026465,0.026405,0.026405)*1000
+v3r.1=c(0.035700,0.035755,0.035630,0.035325,0.036155,0.036280,0.036255)*1000
+v3w.1=c(0.035745,0.035460,0.035340,0.035555,0.035915,0.036060,0.035995)*1000
+
+fit1.1 = lm(v1.1~length)
+fit2.1 = lm(v2c.1~length)
+fit3.1 = lm(v3r.1~length)
+fit4.1 = lm(v3w.1~length)
+
+#switch2
+v1.2=c(0.026260,0.025965,0.025500,0.024990,0.026900,0.026560,0.026720)*1000
+v2c.2=c(0.026100,0.025805,0.025690,0.025070,0.026780,0.026350,0.026195)*1000
+v3r.2=c(0.035830,0.035590,0.035415,0.035220,0.036095,0.036220,0.036040)*1000
+v3w.2=c(0.035620,0.035640,0.035520,0.034905,0.035995,0.036155,0.036025)*1000
+
+fit1.2 = lm(v1.2~length)
+fit2.2 = lm(v2c.2~length)
+fit3.2 = lm(v3r.2~length)
+fit4.2 = lm(v3w.2~length)
+
+#switch3
+v1.3=c(0.026265,0.025730,0.025670,0.025140,0.026350,0.026250,0.026425)*1000
+v2c.3=c(0.026200,0.025770,0.025620,0.025045,0.026360,0.026330,0.026130)*1000
+v3r.3=c(0.035710,0.035530,0.035430,0.035150,0.035955,0.036090,0.036160)*1000
+v3w.3=c(0.035765,0.035630,0.035485,0.035890,0.036075,0.036170,0.035995)*1000
+
+fit1.3 = lm(v1.3~length)
+fit2.3 = lm(v2c.3~length)
+fit3.3 = lm(v3r.3~length)
+fit4.3 = lm(v3w.3~length)
+
+#switch4
+v1.4=c(0.026400,0.025765,0.025470,0.026155,0.026905,0.026390,0.026405)*1000
+v2c.4=c(0.025985,0.025765,0.025585,0.026520,0.026625,0.026120,0.026255)*1000
+v3r.4=c(0.035765,0.035690,0.035340,0.035945,0.036140,0.036125,0.035855)*1000
+v3w.4=c(0.035610,0.035670,0.035355,0.035910,0.036130,0.036025,0.035800)*1000
+
+fit1.4 = lm(v1.4~length)
+fit2.4 = lm(v2c.4~length)
+fit3.4 = lm(v3r.4~length)
+fit4.4 = lm(v3w.4~length)
+
+#switch5
+v1.5=c(0.026170,0.025745,0.025570,0.026385,0.027380,0.026225,0.026195)*1000
+v2c.5=c(0.026010,0.025885,0.025605,0.026700,0.026675,0.026300,0.026285)*1000
+v3r.5=c(0.035645,0.035480,0.035320,0.036090,0.036145,0.036100,0.036030)*1000
+v3w.5=c(0.035500,0.035610,0.035425,0.036125,0.035960,0.036390,0.035910)*1000
+
+fit1.5 = lm(v1.5~length)
+fit2.5 = lm(v2c.5~length)
+fit3.5 = lm(v3r.5~length)
+fit4.5 = lm(v3w.5~length)
+
+
+par(mfrow = c(5, 6), mar = c(0.25, 0, 0.25, 0.4), srt = 1)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v1", cex = 2, x = 0.5, y = 0.5)
+
+plot(length, v1.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(23,29))
+axis(side = 2)
+abline(fit1.1,col="blue",lwd=1)
+plot(length, v1.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.2,col="blue",lwd=1)
+plot(length, v1.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.3,col="blue",lwd=1)
+plot(length, v1.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.4,col="blue",lwd=1)
+plot(length, v1.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v2c", cex = 2, x = 0.5, y = 0.5)
+plot(length, v2c.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(23,29))
+axis(side = 2)
+abline(fit2.1,col="blue",lwd=1)
+plot(length, v2c.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.2,col="blue",lwd=1)
+plot(length, v2c.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.3,col="blue",lwd=1)
+plot(length, v2c.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.4,col="blue",lwd=1)
+plot(length, v2c.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v3r", cex = 2, x = 0.5, y = 0.5)
+plot(length, v3r.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(33,39))
+axis(side = 2)
+abline(fit3.1,col="blue",lwd=1)
+plot(length, v3r.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.2,col="blue",lwd=1)
+plot(length, v3r.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.3,col="blue",lwd=1)
+plot(length, v3r.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.4,col="blue",lwd=1)
+plot(length, v3r.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v3w", cex = 2, x = 0.5, y = 0.5)
+plot(length, v3w.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(33,39))
+axis(side = 1)
+axis(side = 2)
+abline(fit4.1,col="blue",lwd=1)
+plot(length, v3w.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.2,col="blue",lwd=1)
+plot(length, v3w.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.3,col="blue",lwd=1)
+plot(length, v3w.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.4,col="blue",lwd=1)
+plot(length, v3w.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch1", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch2", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch3", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch4", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch5", cex = 2, x = 0.5, y = 0.5)
+
+legend(x = "bottom",inset = 0, legend = c("data","linear fit"), col=c("red","blue"), lwd=1, lty=c(NA,1), pch=c(3,NA), cex=1, horiz = F, merge=T)
+
+
+dev.off()
+

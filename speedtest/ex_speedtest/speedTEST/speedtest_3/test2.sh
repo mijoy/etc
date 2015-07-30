@@ -1,0 +1,248 @@
+#!/bin/bash
+
+current_dir=${PWD} 
+m_r_d=${current_dir}/mean_result/
+p_r_d=${current_dir}/paste_result/
+pdu=10.1.5.142
+
+
+
+
+info ()
+{
+time_output=${current_dir}/log_result/snmp_speedtest_${temp_name}.txt
+result_output=${current_dir}/awk_result_${temp_name}_result.txt
+mean_output=${current_dir}/${file_name}.txt
+}
+
+enter_filename ()
+{
+temp_name="`date +%Y.%m.%d.%H.%M_%S`"
+echo ""
+echo -n Enter name you wish to save [ex.example] : 
+read file_name
+}
+
+manage_file ()
+{
+info
+echo "-----------------------------------------------"
+/usr/bin/awk -f ${current_dir}/average.awk $time_output 
+echo ""
+echo "-----------------------------------------------" 
+
+/usr/bin/awk -f ${current_dir}/average.awk $time_output > $result_output
+sed -n '/Mean(user+sys)/p' $result_output  > aa.txt
+sed 's/Mean(user+sys)             ://g' aa.txt  > $mean_output
+
+rm ${current_dir}/awk_result_${temp_name}_result.txt aa.txt
+}
+
+awk_n_sleep ()
+{
+echo $current_dir
+info
+for i in {1..1000}
+do
+    /usr/bin/time -a -o $time_output -f  "${i} \t%e \t%U \t%S" $command 
+
+done
+manage_file
+}
+
+awk_y_sleep ()
+{
+echo $current_dir
+info
+for i in {1..1000}
+do
+    /usr/bin/time -a -o $time_output -f  "${i} \t%e \t%U \t%S" $command 
+    sleep 1
+done
+manage_file
+}
+
+speedtest_v12c ()
+{
+enter_filename 
+command='snmpget -OqvU -v '$1' -c public -m +PowerNet-MIB '$pdu' sPDUOutletCtl.8'
+$2
+}
+
+speedtest_v3_read ()
+{
+enter_filename 
+command='snmpget -OqvU -v 3 -u mijoy -l authPriv -a MD5 -A qwertyuiop12345 -x DES -X qwertyuiop12345 -m +PowerNet-MIB '$pdu' sPDUOutletCtl.8'
+$1
+}
+
+speedtest_v3_write ()
+{
+enter_filename 
+command='snmpset -OqvU -v 3 -u mijoy -l authPriv -a MD5 -A qwertyuiop12345 -x DES -X qwertyuiop12345 -m +PowerNet-MIB '$pdu' sPDUOutletCtl.8 i 1'
+$1
+}
+
+help() 
+{
+echo""
+echo "help!!!!!!!!!!!!!!!!"
+echo""
+}
+
+file_merge ()
+{
+
+echo ""
+echo -n Enter cable length1 : 
+read cable1
+ 
+
+echo "----------------------------------------------------------------------------"
+ls
+echo "----------------------------------------------------------------------------"
+echo ""
+echo -n Enter 4 filenames to paste [ex.test1.txt test2.txt test3.txt test4.txt] : 
+read filenames1
+
+paste -d"\t" $filenames1 > 1.txt   
+
+
+echo -n Enter name you wish to save [ex.example.txt] : 
+read savename1
+
+sed 's/^/'$cable1'/' 1.txt  > $savename1
+rm 1.txt 
+mv $filenames1 ${m_r_d}
+
+echo ""
+echo -n Enter cable length2 : 
+read cable2
+
+
+
+echo "----------------------------------------------------------------------------"
+ls
+echo "----------------------------------------------------------------------------"
+echo ""
+echo -n Enter 4 filenames to paste [ex.test1.txt test2.txt test3.txt test4.txt] : 
+read filenames2
+
+paste -d"\t" $filenames2 > 1.txt  
+
+
+echo -n Enter name you wish to save [ex.example.txt] : 
+read savename2
+
+sed 's/^/'$cable2'/' 1.txt  > $savename2
+rm 1.txt
+mv $filenames2 ${m_r_d}
+
+
+echo "----------------------------------------------------------------------------"
+ls
+echo "----------------------------------------------------------------------------"
+echo ""
+echo -n Enter 2 filenames to paste [ex.test1.txt test2.txt] : 
+read filenames2
+echo ""
+echo -n Enter name you wish to save [ex.example.txt] : 
+read savename2
+
+paste -d '\n' $filenames2 > $savename2 
+mv $filenames2 ${p_r_d}
+}
+
+
+#--------------------------------------------------------------------
+
+function subopt
+{
+    while :
+    do
+	echo ""
+	echo ""
+	echo "****************************************"
+	echo "*              SUB OPTIONS             *"
+	echo "****************************************"
+	echo "  [1] SNMP v1        / sleep x          "
+	echo "  [2] SNMP v1        / sleep 1          "
+	echo "  [3] SNMP v2c       / sleep x          "
+	echo "  [4] SNMP v2c       / sleep 1          "
+	echo "  [5] SNMP v3(read)  / sleep x          "
+	echo "  [6] SNMP v3(read)  / sleep 1          "
+	echo "  [7] SNMP v3(write) / sleep x          "
+	echo "  [8] SNMP v3(write) / sleep 1          "
+	echo "  [b] Back                              " 
+	echo "  [q] Exit                              "
+	echo "  [0] Help                              "
+	echo "***************************************"
+	echo -n "-> Select sub option: " 
+	read opt1
+	case $opt1 in
+	    1) speedtest_v12c 1 awk_n_sleep;;
+	    2) speedtest_v12c 1 awk_y_sleep;;
+	    3) speedtest_v12c 2c awk_n_sleep;; 
+	    4) speedtest_v12c 2c awk_y_sleep;;
+	    5) speedtest_v3_read awk_n_sleep;;
+	    6) speedtest_v3_read awk_y_sleep;;
+	    7) speedtest_v3_write awk_n_sleep;;
+	    8) speedtest_v3_write awk_y_sleep;;
+	    b) break;;
+	    q) exit;;
+	    0) help;;
+	    *) echo "Invalid option, choose again...";help; 
+		echo "Press Enter to continue... "; read;;
+	esac
+    done
+
+}
+
+
+#--------------------------------------------------------------------
+
+function mainopt
+{
+    clear
+    while :
+    do
+	echo "**********************************"
+	echo "*               OPTIONS          *"
+	echo "**********************************"
+	echo "  [1] SNMP Speed Test             "
+	echo "  [2] File Merge                  "
+	echo "  [3] R(Linear)                   "
+	echo "  [4] R(Histogram)                "
+	echo "----------------------------------"
+	echo "----------------------------------"
+	echo "  [5] Edit R(linear)              "
+	echo "  [6] Edit R(histogram)           "
+	echo "----------------------------------"
+	echo "----------------------------------"
+	echo "  [q] Exit                        "  
+	echo "  [0] Help                        "
+	echo "**********************************"
+	echo -n "-> Select sub option: " 
+	read opt
+	case $opt in
+	    1) subopt;;
+	    2) file_merge;;
+	    3) ./r_linear.sh;;
+	    4) ./r_histogram.sh;;
+	    5) emacs r_linear.sh&;;
+	    6) emacs r_histogram.sh&;;
+	    q) exit;;
+	    0) help;;
+	    *) echo "Invalid option, choose again...";help; 
+		echo "Press Enter to continue... "; read;;
+	esac
+    done
+
+}
+
+
+
+
+
+
+mainopt

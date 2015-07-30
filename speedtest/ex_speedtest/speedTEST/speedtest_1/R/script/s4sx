@@ -1,0 +1,185 @@
+pdf("s4sx.pdf")
+
+options(digits=4)
+length=c(1,35,55,85,100)
+length2=c(20,50,80)
+time1=c(0.09166,0.09211,0.09238,0.09277,0.09297)
+time2=c(0.09084,0.09157,0.09200,0.09265,0.09297)
+time3=c(0.42005,0.42058,0.42089,0.42136,0.42159)
+time4=c(0.44749,0.44815,0.44854,0.44913,0.44942)
+
+fit1 = lm(time1~length)
+fit2 = lm(time2~length)
+fit3 = lm(time3~length)
+fit4 = lm(time4~length)
+
+layout(matrix(c(1,2,3,4,5,5),3,2, byrow=TRUE),widths=c(2,2), heights=c(3,3))
+par(oma=c(1, 1, 3, 1))
+par(mar=c(2,2,2,2))
+
+#v1
+pred.int1 = predict(fit1,level=.95,interval="prediction")
+conf.int1 = predict(fit1,level=.95,interval="confidence")
+fitted.values1 = pred.int1[,1]
+pred.lower1 = pred.int1[,2]
+pred.upper1 = pred.int1[,3]
+conf.lower1 = conf.int1[,2]
+conf.upper1 = conf.int1[,3]
+plot(length, time1, main = 'v1')
+mtext("length", side=1, cex=0.7)
+mtext("time", side=2, cex=0.7)
+lines(length[1:1000],fitted.values1[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower1[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper1[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower1[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper1[1:1000],lty="dashed",lwd=1,col="blue")
+cal1=coef(fit1);cal1
+a1=cal1[1]+cal1[2]*20
+b1=cal1[1]+cal1[2]*50
+c1=cal1[1]+cal1[2]*80
+v1=c(a1,b1,c1)
+points(20,a1,col="red", bg = "red", lty=1,pch=c(21))
+points(50,b1,col="red", bg = "red", lty=1,pch=c(21))
+points(80,c1,col="red", bg = "red", lty=1,pch=c(21))
+text(length, time1, labels=time1, cex= 0.7, pos=1)
+text(length2, v1, labels=v1, cex= 0.7, pos=1)
+
+#v2c
+pred.int2 = predict(fit2,level=.95,interval="prediction")
+conf.int2 = predict(fit2,level=.95,interval="confidence")
+fitted.values2 = pred.int2[,1]
+pred.lower2 = pred.int2[,2]
+pred.upper2 = pred.int2[,3]
+conf.lower2 = conf.int2[,2]
+conf.upper2 = conf.int2[,3]
+plot(length, time2, main = 'v2c')
+mtext("length", side=1, cex=0.7)
+mtext("time", side=2, cex=0.7)
+lines(length[1:1000],fitted.values2[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower2[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper2[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower2[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper2[1:1000],lty="dashed",lwd=1,col="blue")
+cal2=coef(fit2);cal2
+a2=cal2[1]+cal2[2]*20
+b2=cal2[1]+cal2[2]*50
+c2=cal2[1]+cal2[2]*80
+v2c=c(a2,b2,c2)
+points(20,a2,col="red", bg = "red", lty=1,pch=c(21))
+points(50,b2,col="red", bg = "red", lty=1,pch=c(21))
+points(80,c2,col="red", bg = "red", lty=1,pch=c(21))
+text(length, time2, labels=time2, cex= 0.7, pos=1)
+text(length2, v2c, labels=v2c, cex= 0.7, pos=1)
+
+#v3r
+pred.int3 = predict(fit3,level=.95,interval="prediction")
+conf.int3 = predict(fit3,level=.95,interval="confidence")
+fitted.values3 = pred.int3[,1]
+pred.lower3 = pred.int3[,2]
+pred.upper3 = pred.int3[,3]
+conf.lower3 = conf.int3[,2]
+conf.upper3 = conf.int3[,3]
+plot(length, time3, main = 'v3r')
+mtext("length", side=1, cex=0.7)
+mtext("time", side=2, cex=0.7)
+lines(length[1:1000],fitted.values3[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower3[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper3[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower3[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper3[1:1000],lty="dashed",lwd=1,col="blue")
+cal3=coef(fit3);cal3
+a3=cal3[1]+cal3[2]*20
+b3=cal3[1]+cal3[2]*50
+c3=cal3[1]+cal3[2]*80
+v3r=c(a3,b3,c3)
+points(20,a3,col="red", bg = "red", lty=1,pch=c(21))
+points(50,b3,col="red", bg = "red", lty=1,pch=c(21))
+points(80,c3,col="red", bg = "red", lty=1,pch=c(21))
+text(length, time3, labels=time3, cex= 0.7, pos=1)
+text(length2, v3r, labels=v3r, cex= 0.7, pos=1)
+
+
+#v3w
+pred.int4 = predict(fit4,level=.95,interval="prediction")
+conf.int4 = predict(fit4,level=.95,interval="confidence")
+fitted.values4 = pred.int4[,1]
+pred.lower4 = pred.int4[,2]
+pred.upper4 = pred.int4[,3]
+conf.lower4 = conf.int4[,2]
+conf.upper4 = conf.int4[,3]
+plot(length, time4, main = 'v3w')
+mtext("length", side=1, cex=0.7)
+mtext("time", side=2, cex=0.7)
+lines(length[1:1000],fitted.values4[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower4[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper4[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower4[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper4[1:1000],lty="dashed",lwd=1,col="blue")
+cal4=coef(fit4);cal4
+a4=cal4[1]+cal4[2]*20
+b4=cal4[1]+cal4[2]*50
+c4=cal4[1]+cal4[2]*80
+v3w=c(a4,b4,c4)
+points(20,a4,col="red", bg = "red", lty=1,pch=c(21))
+points(50,b4,col="red", bg = "red", lty=1,pch=c(21))
+points(80,c4,col="red", bg = "red", lty=1,pch=c(21))
+text(length, time4, labels=time4, cex= 0.7, pos=1)
+text(length2, v3w, labels=v3w, cex= 0.7, pos=1)
+
+plot(1, type = "n", axes=FALSE, xlab="", ylab="")
+legend(x = "top",inset = 0,
+        legend = c("linear fit","confidence limits","prediction limits","data","prediction value"), 
+        col=c("red","green","blue","black","red"), lwd=1, lty=c(1,2,2,NA,NA), pch=c(NA,NA,NA,21,20), cex=1, horiz = TRUE, merge=FALSE)
+
+title("switch4/sleepx",side=3, line=1, cex=2,outer=TRUE)
+
+
+par(new=TRUE)
+par(oma=c(20.5,4.5,3.5,27.5),cex=0.5)
+par(mfcol=c(3,2), mfg=c(2,2))
+par(mar=c(3,2,1.5,1.5),cex=0.5)
+plot(length, time1, xlim=c(49.5,50.5), ylim=c(0.09229,0.09233))
+lines(length[1:1000],fitted.values1[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower1[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper1[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower1[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper1[1:1000],lty="dashed",lwd=1,col="blue")
+points(50,b1,col="red", bg = "red", lty=1,pch=c(21))
+
+par(new=TRUE)
+par(oma=c(20.5,30.,3.5,2),cex=0.5)
+par(mfcol=c(3,2), mfg=c(2,2))
+par(mar=c(3,2,1.5,1.5),cex=0.5)
+plot(length, time2, xlim=c(49.5,50.5), ylim=c(0.09188,0.09191))
+lines(length[1:1000],fitted.values2[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower2[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper2[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower2[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper2[1:1000],lty="dashed",lwd=1,col="blue")
+points(50,b2,col="red", bg = "red", lty=1,pch=c(21))
+
+par(new=TRUE)
+par(oma=c(9,4.5,15,27.5),cex=0.5)
+par(mfcol=c(3,2), mfg=c(3,3))
+par(mar=c(3,2,1.5,1.5),cex=0.5)
+plot(length, time3, xlim=c(49.5,50.5), ylim=c(0.42080,0.42083))
+lines(length[1:1000],fitted.values3[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower3[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper3[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower3[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper3[1:1000],lty="dashed",lwd=1,col="blue")
+points(50,b3,col="red", bg = "red", lty=1,pch=c(21))
+
+par(new=TRUE)
+par(oma=c(9,30,15,2),cex=0.5)
+par(mfcol=c(3,2), mfg=c(3,3))
+par(mar=c(3,2,1.5,1.5),cex=0.5)
+plot(length, time4, xlim=c(49.5,50.5), ylim=c(0.44843,0.44846))
+lines(length[1:1000],fitted.values4[1:1000],col="red",lwd=1)
+lines(length[1:1000],conf.lower4[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],conf.upper4[1:1000],lty="dashed",lwd=1,col="green")
+lines(length[1:1000],pred.lower4[1:1000],lty="dashed",lwd=1,col="blue")
+lines(length[1:1000],pred.upper4[1:1000],lty="dashed",lwd=1,col="blue")
+points(50,b4,col="red", bg = "red", lty=1,pch=c(21))
+
+dev.off()

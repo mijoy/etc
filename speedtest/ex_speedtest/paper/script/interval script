@@ -1,0 +1,54 @@
+<confidence, prediction interval>
+
+options(digits=4)
+length=c(1,50,100)
+time=c(0.028415,0.028810,0.028895)
+
+fit = lm(time~length)
+
+pred.int1 = predict(fit,level=.95,interval="prediction")
+conf.int1 = predict(fit,level=.95,interval="confidence")
+pred.lower1 = pred.int1[,2]
+pred.upper1 = pred.int1[,3]
+conf.lower1 = conf.int1[,2]
+conf.upper1 = conf.int1[,3]
+plot(length, time1, main = 'v2c', ylab='Response time', xlab='cable length', 
+ylim=c(0.024,0.033),xlim=c(-5,110))
+abline(fit,col="red",lwd=1)
+lines(length[1:10000],conf.lower1[1:10000],lty="dashed",lwd=2,col="green")
+lines(length[1:10000],conf.upper1[1:10000],lty="dashed",lwd=2,col="green")
+lines(length[1:10000],pred.lower1[1:10000],lty="dashed",lwd=2,col="blue")
+lines(length[1:10000],pred.upper1[1:10000],lty="dashed",lwd=2,col="blue")
+text(length, time, labels=time, cex= 0.7, pos=1)
+
+
+legend(x = "bottom",inset = 0, legend = c("linear fit","confidence limits","prediction limits","data"),
+col=c("red","green","blue","black"), lwd=1, lty=c(1,2,2,NA), pch=c(NA,NA,NA,21), cex=0.75, horiz = TRUE, merge=FALSE)
+
+
+
+cal2=coef(fit2);cal2
+a2=cal2[1]+cal2[2]*40
+b2=cal2[1]+cal2[2]*30
+c2=cal2[1]+cal2[2]*20
+d2=cal2[1]+cal2[2]*10
+v2c=c(a2,b2,c2,d2)
+points(40,a2,col="red", bg = "red", lty=1,pch=c(21))
+points(30,b2,col="red", bg = "red", lty=1,pch=c(21))
+points(20,c2,col="red", bg = "red", lty=1,pch=c(21))
+points(10,d2,col="red", bg = "red", lty=1,pch=c(21))
+length2=c(40,30,20,10)
+text(length2, v2c, labels=v2c, cex= 0.7, pos=1)
+
+------------------------------------------------------------------------------------------------------------
+
+<산점도>
+
+d <- data.frame(length=c(1,50,100), time2=c(0.028415,0.028810,0.028895))
+plot(time2~length,data=d, ylab='Response time', xlab='cable length', main = 'v2c',
+ylim=c(0.02830,0.02905),xlim=c(-5,110),col="red", bg = "red", lty=1,pch=c(21))
+text(length, time2, labels=time2, cex= 0.7, pos=1)
+
+------------------------------------------------------------------------------------------------------------
+lm <- lm(time2~length,data=d)
+abline(lm) 

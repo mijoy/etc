@@ -1,0 +1,34 @@
+svg("s1s1.svg")
+
+library(plotrix)
+options(digits=4)
+
+length=c(50,100)
+
+v1=c(0.024735,0.024900)*1000 
+v2c=c(0.024830,0.024870)*1000 
+v3r=c(0.035765,0.035855)*1000 
+v3w=c(0.035930,0.035725)*1000 
+
+v1.temp=c(0.027485,0.024805)*1000 
+v2c.temp=c(0.024520,0.024955)*1000 
+v3r.temp=c(0.035745,0.035695)*1000 
+v3w.temp=c(0.036085,0.035575)*1000 
+
+layout(rbind(1,2), heights=c(7,1))  # put legend on bottom 1/8th of the chart
+par(mar=c(5, 5, 4, 2) + 0.1)
+
+gap.plot(length,v2c, gap=c(30,32), gap.axis="y", ylim=range(c(23,39)), ytics=c(23:29,33:39), xlim=c(45,105), col="blue", lty=1, pch=c(3),main = 'SNMP Time Response TEST',  sub="(Switch1 configuration(temp))", xlab='cable length(m)', ylab='Response time(ms)')
+points(length, v2c.temp, col="red", lty=1,pch=c(4))
+
+gap.plot(length,v3w, gap=c(30,32), gap.axis="y", ylim=range(c(23,29)), ytics=c(23:29,33:39) , pch=3, col="blue", add=TRUE)
+points(length, v3w.temp, col="red", lty=1,pch=c(4))
+
+
+par(mar=c(0, 0, 0, 0))
+plot.new()
+par(xpd=TRUE)
+legend(x = "center",inset = 1,
+        legend = c("50","50_","100","100_"), col=c("blue","red","blue","red"), lwd=1, lty=c(NA,NA,NA,NA), pch=c(3,4,3,4), cex=1, horiz = TRUE, merge=FALSE)
+
+dev.off()

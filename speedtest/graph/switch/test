@@ -1,0 +1,178 @@
+pdf("sleep1.pdf")
+
+#sleep1
+
+length=c(1,10,20,30,40,50,100)
+a<-data.frame(switch1=c(1),switch2=c(2),switch3=c(3),switch4=c(4),switch5=c(5))
+
+v1 <- data.frame(
+v1.1=c(0.024350,0.024450,0.024585,0.024125,0.024785,0.024735,0.024900)*1000, 
+v1.2=c(0.024450,0.024430,0.024520,0.024150,0.024525,0.024660,0.024620)*1000,
+v1.3=c(0.024305,0.024500,0.024310,0.024270,0.024710,0.024595,0.024620)*1000,
+v1.4=c(0.024410,0.024485,0.024445,0.024545,0.024810,0.024890,0.025495)*1000,
+v1.5=c(0.024500,0.024620,0.024455,0.024740,0.024700,0.024925,0.024365)*1000)
+
+v2c <- data.frame(
+v2c.1=c(0.024370,0.024445,0.024350,0.024435,0.024765,0.024830,0.024870)*1000,
+v2c.2=c(0.024420,0.024370,0.024340,0.024145,0.024845,0.024725,0.024690)*1000,
+v2c.3=c(0.024390,0.024630,0.024355,0.024175,0.024955,0.024855,0.024775)*1000,
+v2c.4=c(0.024370,0.024740,0.024285,0.024725,0.024730,0.024730,0.024800)*1000,
+v2c.5=c(0.024465,0.024650,0.024385,0.024675,0.024785,0.024745,0.024520)*1000)
+
+v3r <- data.frame(
+v3r.1=c(0.035785,0.035475,0.035335,0.034845,0.035950,0.035765,0.035855)*1000,
+v3r.2=c(0.035555,0.035390,0.035270,0.034825,0.035665,0.035720,0.035860)*1000,
+v3r.3=c(0.035620,0.035235,0.035400,0.034775,0.035685,0.035955,0.035785)*1000,
+v3r.4=c(0.035700,0.035415,0.035225,0.035675,0.035760,0.035850,0.035925)*1000,
+v3r.5=c(0.035605,0.035290,0.035280,0.035720,0.035750,0.035725,0.035525)*1000)
+
+v3w <- data.frame(
+v3w.1=c(0.035540,0.035530,0.035230,0.035455,0.035800,0.035930,0.035725)*1000,
+v3w.2=c(0.035535,0.035590,0.035415,0.034860,0.035900,0.035805,0.035860)*1000,
+v3w.3=c(0.035535,0.035450,0.035320,0.035660,0.035750,0.035925,0.036020)*1000,
+v3w.4=c(0.035470,0.035425,0.035305,0.035885,0.035675,0.035795,0.035735)*1000,
+v3w.5=c(0.035365,0.035385,0.035210,0.035735,0.035775,0.035840,0.035590)*1000)
+
+
+fit1.1 = lm(v1$v1.1~length)
+fit2.1 = lm(v2c$v2c.1~length)
+fit3.1 = lm(v3r$v3r.1~length)
+fit4.1 = lm(v3w$v3w.1~length)
+fit1.2 = lm(v1$v1.2~length)
+fit2.2 = lm(v2c$v2c.2~length)
+fit3.2 = lm(v3r$v3r.2~length)
+fit4.2 = lm(v3w$v3w.2~length)
+fit1.3 = lm(v1$v1.3~length)
+fit2.3 = lm(v2c$v2c.3~length)
+fit3.3 = lm(v3r$v3r.3~length)
+fit4.3 = lm(v3w$v3w.3~length)
+fit1.4 = lm(v1$v1.4~length)
+fit2.4 = lm(v2c$v2c.4~length)
+fit3.4 = lm(v3r$v3r.4~length)
+fit4.4 = lm(v3w$v3w.4~length)
+fit1.5 = lm(v1$v1.5~length)
+fit2.5 = lm(v2c$v2c.5~length)
+fit3.5 = lm(v3r$v3r.5~length)
+fit4.5 = lm(v3w$v3w.5~length)
+
+
+par(mfrow = c(5, 6), mar = c(0.25, 0, 0.25, 0.4), srt = 1)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v1", cex = 2, x = 0.5, y = 0.5)
+
+
+invisible(lapply(colnames(v1), function(i) {
+    plot(x=v1[[i]],y=length,xaxt = "n", yaxt = "n", pch=c(3),col="red")
+    abline(lm(length~v1[[i]]),col="blue",lwd=1)
+}))
+
+
+
+plot(length, data$v1.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(23,29))
+axis(side = 2)
+abline(fit1.1,col="blue",lwd=1)
+plot(length, data$v1.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.2,col="blue",lwd=1)
+plot(length, data$v1.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.3,col="blue",lwd=1)
+plot(length, data$v1.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.4,col="blue",lwd=1)
+plot(length, data$v1.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit1.5)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v2c", cex = 2, x = 0.5, y = 0.5)
+plot(length, data$v2c.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(23,29))
+axis(side = 2)
+abline(fit2.1,col="blue",lwd=1)
+plot(length, data$v2c.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.2,col="blue",lwd=1)
+plot(length, data$v2c.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.3,col="blue",lwd=1)
+plot(length, data$v2c.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.4,col="blue",lwd=1)
+plot(length, data$v2c.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit2.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v3r", cex = 2, x = 0.5, y = 0.5)
+plot(length, data$v3r.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(33,39))
+axis(side = 2)
+abline(fit3.1,col="blue",lwd=1)
+plot(length, data$v3r.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.2,col="blue",lwd=1)
+plot(length, data$v3r.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.3,col="blue",lwd=1)
+plot(length, data$v3r.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.4,col="blue",lwd=1)
+plot(length, data$v3r.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+abline(fit3.5,col="blue",lwd=1)
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("v3w", cex = 2, x = 0.5, y = 0.5)
+plot(length, data$v3w.1,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105),ylim=c(33,39))
+axis(side = 1)
+axis(side = 2)
+abline(fit4.1,col="blue",lwd=1)
+plot(length, data$v3w.2,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.2,col="blue",lwd=1)
+plot(length, data$v3w.3,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.3,col="blue",lwd=1)
+plot(length, data$v3w.4,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.4,col="blue",lwd=1)
+plot(length, data$v3w.5,axes=FALSE,box(),pch=c(3),col="red",xlim=c(-5,105))
+axis(side = 1)
+abline(fit4.5,col="blue",lwd=1)
+
+
+
+invisible(lapply(c("", colnames(a)), function(i) {
+    plot.new()
+    plot.window(c(0, 1), c(0, 1), asp = 1)
+    text(i, x = 0.5, y = 0.5, cex = 2)
+}))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch1", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch2", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch3", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch4", cex = 2, x = 0.5, y = 0.5)
+plot.new()
+plot.window(c(0, 1), c(0, 1), asp = 1)
+text("switch5", cex = 2, x = 0.5, y = 0.5)
+
+
+dev.off()
+

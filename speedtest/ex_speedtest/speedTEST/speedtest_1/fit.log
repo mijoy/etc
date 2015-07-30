@@ -1,0 +1,4765 @@
+
+
+*******************************************************************************
+Mon Apr 21 11:25:12 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.05051e-05    
+b               = 0.0920495      
+
+
+*******************************************************************************
+Mon Apr 21 11:25:12 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.4265e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.05051e-05
+b               = 0.0920495
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.13763e-25
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.09091e-05   
+b               = 0.0921209      
+
+
+*******************************************************************************
+Mon Apr 21 11:25:12 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.216937          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.09091e-05
+b               = 0.0921209
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.2326e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.420971       
+
+
+*******************************************************************************
+Mon Apr 21 11:25:12 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147548        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.420971
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.14309e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.34343e-06    
+b               = 0.447856       
+
+
+*******************************************************************************
+Mon Apr 21 11:26:17 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.05051e-05    
+b               = 0.0920495      
+
+
+*******************************************************************************
+Mon Apr 21 11:26:17 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.4265e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.05051e-05
+b               = 0.0920495
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.13763e-25
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.09091e-05   
+b               = 0.0921209      
+
+
+*******************************************************************************
+Mon Apr 21 11:26:17 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.216937          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.09091e-05
+b               = 0.0921209
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.2326e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.420971       
+
+
+*******************************************************************************
+Mon Apr 21 11:26:17 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147548        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.420971
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.14309e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.34343e-06    
+b               = 0.447856       
+
+
+*******************************************************************************
+Mon Apr 21 11:27:44 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.05051e-05    
+b               = 0.0920495      
+
+
+*******************************************************************************
+Mon Apr 21 11:27:44 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.4265e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.05051e-05
+b               = 0.0920495
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.13763e-25
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.09091e-05   
+b               = 0.0921209      
+
+
+*******************************************************************************
+Mon Apr 21 11:27:44 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.216937          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.09091e-05
+b               = 0.0921209
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.2326e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.420971       
+
+
+*******************************************************************************
+Mon Apr 21 11:27:44 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147548        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.420971
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.14309e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.34343e-06    
+b               = 0.447856       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:05 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -3.43434e-06   
+b               = 0.0995534      
+
+
+*******************************************************************************
+Mon Apr 21 11:28:05 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.9e-08           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -3.43434e-06
+b               = 0.0995534
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -7.06974e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -2.0202e-06    
+b               = 0.099342       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:05 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.212415          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -2.0202e-06
+b               = 0.099342
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.52525e-06    
+b               = 0.425007       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:05 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147253        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.52525e-06
+b               = 0.425007
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.16298e-33
+abs. change during last iteration : -1.1224e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22222e-05    
+b               = 0.451648       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:16 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -3.43434e-06   
+b               = 0.0995534      
+
+
+*******************************************************************************
+Mon Apr 21 11:28:16 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.9e-08           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -3.43434e-06
+b               = 0.0995534
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -7.06974e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -2.0202e-06    
+b               = 0.099342       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:16 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.212415          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -2.0202e-06
+b               = 0.099342
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.52525e-06    
+b               = 0.425007       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:16 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147253        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.52525e-06
+b               = 0.425007
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.16298e-33
+abs. change during last iteration : -1.1224e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22222e-05    
+b               = 0.451648       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:25 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.05051e-05    
+b               = 0.0920495      
+
+
+*******************************************************************************
+Mon Apr 21 11:28:25 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.4265e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.05051e-05
+b               = 0.0920495
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.13763e-25
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.09091e-05   
+b               = 0.0921209      
+
+
+*******************************************************************************
+Mon Apr 21 11:28:25 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.216937          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.09091e-05
+b               = 0.0921209
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.2326e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.420971       
+
+
+*******************************************************************************
+Mon Apr 21 11:28:25 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147548        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.420971
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.14309e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.34343e-06    
+b               = 0.447856       
+
+
+*******************************************************************************
+Mon Apr 21 11:29:56 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 299.524           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+mean_y          = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.172263
+rel. change during last iteration : -1.7353e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0131315
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000172436
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+mean_y          = 0.45287          +/- 0.0004153    (0.09169%)
+
+
+correlation matrix of the fit parameters:
+
+               mean_y 
+mean_y          1.000 
+
+
+*******************************************************************************
+Mon Apr 21 14:43:57 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10186             delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 7.07071e-07    
+b               = 0.0920693      
+
+
+*******************************************************************************
+Mon Apr 21 14:43:57 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.1625e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 7.07071e-07
+b               = 0.0920693
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.85508e-25
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.45455e-05   
+b               = 0.0921245      
+
+
+*******************************************************************************
+Mon Apr 21 14:43:57 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.217029          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.45455e-05
+b               = 0.0921245
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.10934e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -3.33333e-06   
+b               = 0.420973       
+
+
+*******************************************************************************
+Mon Apr 21 14:43:57 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00150316        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -3.33333e-06
+b               = 0.420973
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.14265e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 7.17172e-06    
+b               = 0.447853       
+
+
+*******************************************************************************
+Mon Apr 21 14:44:24 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.5           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -8.0943e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.41414e-06   
+b               = 0.0995514      
+
+
+*******************************************************************************
+Mon Apr 21 14:44:24 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.65e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.41414e-06
+b               = 0.0995514
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -6.99488e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.0993411      
+
+
+*******************************************************************************
+Mon Apr 21 14:44:24 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21192           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.0993411
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.1155e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -4.24242e-06   
+b               = 0.425014       
+
+
+*******************************************************************************
+Mon Apr 21 14:44:24 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00146867        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -4.24242e-06
+b               = 0.425014
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.12247e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.74747e-06    
+b               = 0.451655       
+
+
+*******************************************************************************
+Mon Apr 21 14:45:26 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.5           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -8.0943e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.41414e-06   
+b               = 0.0995514      
+
+
+*******************************************************************************
+Mon Apr 21 14:45:26 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.65e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.41414e-06
+b               = 0.0995514
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -6.99488e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.11111e-06   
+b               = 0.0993411      
+
+
+*******************************************************************************
+Mon Apr 21 14:45:26 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21192           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.11111e-06
+b               = 0.0993411
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.1155e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -4.24242e-06   
+b               = 0.425014       
+
+
+*******************************************************************************
+Mon Apr 21 14:45:26 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00146867        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -4.24242e-06
+b               = 0.425014
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.12247e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.74747e-06    
+b               = 0.451655       
+
+
+*******************************************************************************
+Tue Apr 22 11:44:55 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.5           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.62626e-06    
+b               = 0.0993374      
+
+
+*******************************************************************************
+Tue Apr 22 11:44:55 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.42e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.62626e-06
+b               = 0.0993374
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -2.37104e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.84848e-06    
+b               = 0.0993252      
+
+
+*******************************************************************************
+Tue Apr 22 11:44:55 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.212154          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 4.84848e-06
+b               = 0.0993252
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 6.76768e-06    
+b               = 0.424923       
+
+
+*******************************************************************************
+Tue Apr 22 11:44:55 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00149719        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 6.76768e-06
+b               = 0.424923
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.16979e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1e-05          
+b               = 0.45212        
+
+
+*******************************************************************************
+Tue Apr 22 11:45:10 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10186.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33311e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 8.68687e-06    
+b               = 0.0911213      
+
+
+*******************************************************************************
+Tue Apr 22 11:45:10 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.081e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 8.68687e-06
+b               = 0.0911213
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.72582e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.52525e-06    
+b               = 0.0913275      
+
+
+*******************************************************************************
+Tue Apr 22 11:45:10 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21722           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.52525e-06
+b               = 0.0913275
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4.94949e-06    
+b               = 0.420765       
+
+
+*******************************************************************************
+Tue Apr 22 11:45:10 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0015153         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 4.94949e-06
+b               = 0.420765
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.18446e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 8.08081e-06    
+b               = 0.448132       
+
+
+*******************************************************************************
+Thu Apr 24 09:29:00 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10186.2           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33408e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.81818e-06    
+b               = 0.0911682      
+
+
+*******************************************************************************
+Thu Apr 24 09:29:00 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000150866       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.81818e-06
+b               = 0.0911682
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -2.09956e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.000125785    
+b               = 0.0910542      
+
+
+*******************************************************************************
+Thu Apr 24 09:29:00 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.208378          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 0.000125785
+b               = 0.0910542
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.10934e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.19192e-05    
+b               = 0.419538       
+
+
+*******************************************************************************
+Thu Apr 24 09:29:00 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00134961        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.19192e-05
+b               = 0.419538
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.09448e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 5.35354e-06    
+b               = 0.445845       
+
+
+*******************************************************************************
+Thu Apr 24 09:29:17 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17461e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -3.13131e-06   
+b               = 0.0994131      
+
+
+*******************************************************************************
+Thu Apr 24 09:29:17 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.693e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -3.13131e-06
+b               = 0.0994131
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -5.01438e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.21212e-06   
+b               = 0.0995912      
+
+
+*******************************************************************************
+Thu Apr 24 09:29:17 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.210679          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.21212e-06
+b               = 0.0995912
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.00148e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.11111e-05    
+b               = 0.423529       
+
+
+*******************************************************************************
+Thu Apr 24 09:29:17 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00150393        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.11111e-05
+b               = 0.423529
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.27467e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -8.38384e-06   
+b               = 0.451918       
+
+
+*******************************************************************************
+Thu May  8 14:40:43 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Thu May  8 14:40:56 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.9           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33254e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.32323e-05    
+b               = 0.0916468      
+
+
+*******************************************************************************
+Thu May  8 14:40:56 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.724e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.32323e-05
+b               = 0.0916468
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -1.08522e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.15152e-05    
+b               = 0.0908185      
+
+
+*******************************************************************************
+Thu May  8 14:40:56 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21637           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.15152e-05
+b               = 0.0908185
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.55556e-05    
+b               = 0.420034       
+
+
+*******************************************************************************
+Thu May  8 14:40:56 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00152746        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.55556e-05
+b               = 0.420034
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.19046e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.94949e-05    
+b               = 0.447471       
+
+
+*******************************************************************************
+Thu May  8 14:44:09 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.9899e-05     
+b               = 0.0987001      
+
+
+*******************************************************************************
+Thu May  8 14:44:09 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.69e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.9899e-05
+b               = 0.0987001
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -2.34368e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.16162e-05    
+b               = 0.0985784      
+
+
+*******************************************************************************
+Thu May  8 14:44:09 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.212715          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.16162e-05
+b               = 0.0985784
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.19192e-05    
+b               = 0.424688       
+
+
+*******************************************************************************
+Thu May  8 14:44:09 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147005        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.19192e-05
+b               = 0.424688
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.21365e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.0101e-05     
+b               = 0.45239        
+
+
+*******************************************************************************
+Wed May 14 10:13:28 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -8.0943e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.0101e-05     
+b               = 0.10056        
+
+
+*******************************************************************************
+Wed May 14 10:13:28 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.57e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.0101e-05
+b               = 0.10056
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.367e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 6.76768e-06    
+b               = 0.100803       
+
+
+*******************************************************************************
+Wed May 14 10:13:28 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.232744          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 6.76768e-06
+b               = 0.100803
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.23568e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.000236869   
+b               = 0.454027       
+
+
+*******************************************************************************
+Wed May 14 10:13:28 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000632691       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -0.000236869
+b               = 0.454027
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.92706e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.30303e-05    
+b               = 0.454187       
+
+
+*******************************************************************************
+Wed May 14 10:13:38 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10301.7           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -3.36689e-29
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -8.00897e-06   
+b               = 0.101431       
+
+
+*******************************************************************************
+Wed May 14 10:13:38 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.106557          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = -8.00897e-06
+b               = 0.101431
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -5.75314e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.00363585    
+b               = 0.464505       
+
+
+*******************************************************************************
+Wed May 14 10:13:38 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.107453          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = -0.00363585
+b               = 0.464505
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -2.02747e-20
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.000300336   
+b               = 0.457654       
+
+
+*******************************************************************************
+Wed May 14 10:13:38 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed May 14 10:14:20 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10301.7           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -3.36689e-29
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -8.00897e-06   
+b               = 0.101431       
+
+
+*******************************************************************************
+Wed May 14 10:14:20 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.106557          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = -8.00897e-06
+b               = 0.101431
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -5.75314e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.00363585    
+b               = 0.464505       
+
+
+*******************************************************************************
+Wed May 14 10:14:20 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.107453          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.2594
+
+initial set of free parameter values
+
+a               = -0.00363585
+b               = 0.464505
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -2.02747e-20
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.000300336   
+b               = 0.457654       
+
+
+*******************************************************************************
+Wed May 14 10:14:20 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Wed May 14 10:14:38 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.8           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 5.45455e-06    
+b               = 0.0929845      
+
+
+*******************************************************************************
+Wed May 14 10:14:38 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.3154e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 5.45455e-06
+b               = 0.0929845
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.15942e-23
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.43434e-05    
+b               = 0.0937457      
+
+
+*******************************************************************************
+Wed May 14 10:14:38 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.218203          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.43434e-05
+b               = 0.0937457
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 7.37374e-06    
+b               = 0.424403       
+
+
+*******************************************************************************
+Wed May 14 10:14:38 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00141595        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 7.37374e-06
+b               = 0.424403
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -9.35095e-20
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 5.10101e-05    
+b               = 0.448719       
+
+
+*******************************************************************************
+Wed May 14 10:14:48 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.8           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25319e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -2.18182e-05   
+b               = 0.0953918      
+
+
+*******************************************************************************
+Wed May 14 10:14:48 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.2181e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -2.18182e-05
+b               = 0.0953918
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -2.92649e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.71717e-06   
+b               = 0.0940317      
+
+
+*******************************************************************************
+Wed May 14 10:14:48 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21747           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.71717e-06
+b               = 0.0940317
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 3.0303e-07     
+b               = 0.42368        
+
+
+*******************************************************************************
+Wed May 14 10:14:48 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00144925        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 3.0303e-07
+b               = 0.42368
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.10649e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 9.49495e-06    
+b               = 0.450131       
+
+
+*******************************************************************************
+Wed May 14 10:15:51 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.61616e-06   
+b               = 0.100792       
+
+
+*******************************************************************************
+Wed May 14 10:15:51 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.977e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.61616e-06
+b               = 0.100792
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -5.00856e-23
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -4.34343e-06   
+b               = 0.101354       
+
+
+*******************************************************************************
+Wed May 14 10:15:51 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.213289          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -4.34343e-06
+b               = 0.101354
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.61616e-06   
+b               = 0.427782       
+
+
+*******************************************************************************
+Wed May 14 10:15:51 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00157888        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.61616e-06
+b               = 0.427782
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.13717e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.32323e-05    
+b               = 0.454597       
+
+
+*******************************************************************************
+Wed May 14 10:16:23 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.9899e-05     
+b               = 0.0987001      
+
+
+*******************************************************************************
+Wed May 14 10:16:23 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.69e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.9899e-05
+b               = 0.0987001
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -2.34368e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.16162e-05    
+b               = 0.0985784      
+
+
+*******************************************************************************
+Wed May 14 10:16:23 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.212715          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.16162e-05
+b               = 0.0985784
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.19192e-05    
+b               = 0.424688       
+
+
+*******************************************************************************
+Wed May 14 10:16:23 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00147005        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.19192e-05
+b               = 0.424688
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.21365e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.0101e-05     
+b               = 0.45239        
+
+
+*******************************************************************************
+Wed May 14 10:16:36 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -8.0943e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.0101e-05     
+b               = 0.10056        
+
+
+*******************************************************************************
+Wed May 14 10:16:36 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.57e-08          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.0101e-05
+b               = 0.10056
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.367e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 6.76768e-06    
+b               = 0.100803       
+
+
+*******************************************************************************
+Wed May 14 10:16:36 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.232744          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 6.76768e-06
+b               = 0.100803
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.23568e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -0.000236869   
+b               = 0.454027       
+
+
+*******************************************************************************
+Wed May 14 10:16:36 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000632691       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -0.000236869
+b               = 0.454027
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.92706e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.30303e-05    
+b               = 0.454187       
+
+
+*******************************************************************************
+Wed May 14 10:16:50 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10184.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.17365e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.61616e-06   
+b               = 0.100792       
+
+
+*******************************************************************************
+Wed May 14 10:16:50 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.977e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.61616e-06
+b               = 0.100792
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -5.00856e-23
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -4.34343e-06   
+b               = 0.101354       
+
+
+*******************************************************************************
+Wed May 14 10:16:50 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.213289          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -4.34343e-06
+b               = 0.101354
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.61616e-06   
+b               = 0.427782       
+
+
+*******************************************************************************
+Wed May 14 10:16:50 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00157888        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.61616e-06
+b               = 0.427782
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.13717e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.32323e-05    
+b               = 0.454597       
+
+
+*******************************************************************************
+Wed May 14 10:17:01 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.8           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25319e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -2.18182e-05   
+b               = 0.0953918      
+
+
+*******************************************************************************
+Wed May 14 10:17:01 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.2181e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -2.18182e-05
+b               = 0.0953918
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -2.92649e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.71717e-06   
+b               = 0.0940317      
+
+
+*******************************************************************************
+Wed May 14 10:17:01 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21747           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = -1.71717e-06
+b               = 0.0940317
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 3.0303e-07     
+b               = 0.42368        
+
+
+*******************************************************************************
+Wed May 14 10:17:01 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00144925        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 3.0303e-07
+b               = 0.42368
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.10649e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 9.49495e-06    
+b               = 0.450131       
+
+
+*******************************************************************************
+Wed May 14 10:17:12 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.8           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.25415e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 5.45455e-06    
+b               = 0.0929845      
+
+
+*******************************************************************************
+Wed May 14 10:17:12 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.3154e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 5.45455e-06
+b               = 0.0929845
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.15942e-23
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.43434e-05    
+b               = 0.0937457      
+
+
+*******************************************************************************
+Wed May 14 10:17:12 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.218203          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.43434e-05
+b               = 0.0937457
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 7.37374e-06    
+b               = 0.424403       
+
+
+*******************************************************************************
+Wed May 14 10:17:12 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00141595        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 7.37374e-06
+b               = 0.424403
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.08149e-33
+abs. change during last iteration : -9.35095e-20
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 5.10101e-05    
+b               = 0.448719       
+
+
+*******************************************************************************
+Wed May 14 10:17:22 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.9           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33254e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.32323e-05    
+b               = 0.0916468      
+
+
+*******************************************************************************
+Wed May 14 10:17:22 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.724e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.32323e-05
+b               = 0.0916468
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -1.08522e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.15152e-05    
+b               = 0.0908185      
+
+
+*******************************************************************************
+Wed May 14 10:17:22 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21637           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.15152e-05
+b               = 0.0908185
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.55556e-05    
+b               = 0.420034       
+
+
+*******************************************************************************
+Wed May 14 10:17:22 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00152746        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.55556e-05
+b               = 0.420034
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.19046e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.94949e-05    
+b               = 0.447471       
+
+
+*******************************************************************************
+Wed May 14 13:43:23 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 298.058           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+mean_y          = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.16016
+rel. change during last iteration : -1.80231e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0126618
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00016032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+mean_y          = 0.4542           +/- 0.0004004    (0.08816%)
+
+
+correlation matrix of the fit parameters:
+
+               mean_y 
+mean_y          1.000 
+
+
+*******************************************************************************
+Wed May 14 13:44:38 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 298.058           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+mean_y          = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.16016
+rel. change during last iteration : -1.80231e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0126618
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00016032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+mean_y          = 0.4542           +/- 0.0004004    (0.08816%)
+
+
+correlation matrix of the fit parameters:
+
+               mean_y 
+mean_y          1.000 
+
+
+*******************************************************************************
+Wed May 14 13:45:13 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.9           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33254e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.32323e-05    
+b               = 0.0916468      
+
+
+*******************************************************************************
+Wed May 14 13:45:13 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.724e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.32323e-05
+b               = 0.0916468
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -1.08522e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.15152e-05    
+b               = 0.0908185      
+
+
+*******************************************************************************
+Wed May 14 13:45:13 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21637           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.15152e-05
+b               = 0.0908185
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.55556e-05    
+b               = 0.420034       
+
+
+*******************************************************************************
+Wed May 14 13:45:13 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00152746        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.55556e-05
+b               = 0.420034
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.19046e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.94949e-05    
+b               = 0.447471       
+
+
+*******************************************************************************
+Thu May 15 09:44:55 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10185.9           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -8.33254e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.32323e-05    
+b               = 0.0916468      
+
+
+*******************************************************************************
+Thu May 15 09:44:55 2014
+
+
+FIT:    data read from fname u 1:3
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.724e-07         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.32323e-05
+b               = 0.0916468
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92593e-34
+abs. change during last iteration : -1.08522e-22
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.15152e-05    
+b               = 0.0908185      
+
+
+*******************************************************************************
+Thu May 15 09:44:55 2014
+
+
+FIT:    data read from fname u 1:4
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.21637           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 2.15152e-05
+b               = 0.0908185
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.11242e-30
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.55556e-05    
+b               = 0.420034       
+
+
+*******************************************************************************
+Thu May 15 09:44:55 2014
+
+
+FIT:    data read from fname u 1:5
+        format = x:z
+	y range restricted to [-10.0000 : 110.000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00152746        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 50.0075
+
+initial set of free parameter values
+
+a               = 1.55556e-05
+b               = 0.420034
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -1.19046e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.94949e-05    
+b               = 0.447471       
+
+
+*******************************************************************************
+Thu May 15 09:44:56 2014
+
+
+FIT:    data read from fname u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 298.058           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+mean_y          = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.16016
+rel. change during last iteration : -1.80231e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0126618
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00016032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+mean_y          = 0.4542           +/- 0.0004004    (0.08816%)
+
+
+correlation matrix of the fit parameters:
+
+               mean_y 
+mean_y          1.000 

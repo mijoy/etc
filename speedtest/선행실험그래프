@@ -1,0 +1,33 @@
+pdf("pretest.pdf")
+
+d = data.frame(
+x  = c(1:4),
+y  = c(2.86, 2.85, 4.10, 4.14),
+sd = c(0.86, 0.84, 0.81, 0.86)
+)
+
+colnames(d)<-c("x","y","sd")
+attach(d)
+
+sd <- sd/2
+
+
+versions<-c("v1","v2c","v3(read)","v3(write)")
+mm <- cbind(versions = versions, d)
+rownames(mm) <- NULL
+
+
+plot (x, y, xaxt = "n", xlim=c(0,5), ylim=c(2.5,4.5), xlab='versions', ylab='mean (ms)', main= "SNMP wall-clock time response (n=1,000)",col="black", bg = "black", lty=1,pch=c(21))
+axis(1, at=1:4, labels=versions) 
+text(x, y, labels=y, cex= 1, pos=4)
+
+abline(h=2.5:4.5, v=1:4, col="gray", lty=3)
+abline(h=3:4, col="gray", lty=3)
+
+segments(x,y-sd,x,y+sd)
+epsilon <- 0.02
+segments(x-epsilon,y-sd,x+epsilon,y-sd)
+segments(x-epsilon,y+sd,x+epsilon,y+sd)
+
+
+dev.off()

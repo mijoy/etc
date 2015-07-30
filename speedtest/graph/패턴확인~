@@ -1,0 +1,23 @@
+data = read.table("/home/mijoy0909/speedtest/log_result/snmp_speedtest_2014.10.15.19.03_30.txt")
+
+colnames(data)<-c("time","real","user","sys")
+
+attach(data)
+plot(time,user)
+
+
+
+
+data = read.table("/home/mijoy0909/speedtest/log_result/snmp_speedtest_2014.10.15.19.03_30.txt")
+
+colnames(data)<-c("time","real","user","sys")
+
+attach(data)
+plot(time,user)
+
+data2 = read.table("/home/mijoy0909/speedtest/log_result/snmp_speedtest_2014.10.14.19.20_58.txt")
+
+colnames(data2)<-c("time","real","user","sys")
+
+attach(data2)
+plot(time,user)

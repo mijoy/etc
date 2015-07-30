@@ -1,0 +1,101 @@
+
+
+options(digits=4)
+
+time <- seq(5,105,10)
+length = c(1,10,20,30,40,50,100)
+length2 = c(10,20,30,40)
+
+time2=c(0.026010,0.025885,0.025605,0.026700,0.026675,0.026300,0.026285)
+time4=c(0.035500,0.035610,0.035425,0.036125,0.035960,0.036390,0.035910)
+
+tt2<- time2*1000
+tt4<- time4*1000
+
+fit2 = lm(tt2~length)
+fit4 = lm(tt4~length)
+
+par(mar=c(5, 4, 4, 6) + 0.1)
+
+
+pred.int2 = predict(fit2,level=.95,interval="prediction")
+conf.int2 = predict(fit2,level=.95,interval="confidence")
+pred.lower2 = pred.int2[,2]
+pred.upper2 = pred.int2[,3]
+conf.lower2 = conf.int2[,2]
+conf.upper2 = conf.int2[,3]
+plot(length, tt2, ylab='', xlab='', ylim=c(23,29),col="black", axes=FALSE, bg = "black", lty=1,pch=c(21))
+abline(fit2,col="red",lwd=1)
+lines(length[1:1000],conf.lower2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower2[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper2[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, tt2, labels=tt2, cex= 1, pos=1)
+cal2=coef(fit2);cal2
+a2=cal2[1]+cal2[2]*10
+b2=cal2[1]+cal2[2]*20
+c2=cal2[1]+cal2[2]*30
+d2=cal2[1]+cal2[2]*40
+v2c=c(a2,b2,c2,d2)
+points(10,a2,col="red", bg = "red", lty=1,pch=c(24))
+points(20,b2,col="red", bg = "red", lty=1,pch=c(24))
+points(30,c2,col="red", bg = "red", lty=1,pch=c(24))
+points(40,d2,col="red", bg = "red", lty=1,pch=c(24))
+
+axis(2, ylim=c(23,29),col="black",las=1)  
+mtext("v2c Response time(ms)",side=2,line=2.5)
+box()
+
+
+
+par(new=TRUE)
+pred.int4 = predict(fit4,level=.95,interval="prediction")
+conf.int4 = predict(fit4,level=.95,interval="confidence")
+pred.lower4 = pred.int4[,2]
+pred.upper4 = pred.int4[,3]
+conf.lower4 = conf.int4[,2]
+conf.upper4 = conf.int4[,3]
+plot(length, tt4, ylab='', xlab='', ylim=c(33,39),col="black", axes=FALSE,bg = "black", lty=1,pch=c(21))
+abline(fit4,col="red",lwd=1)
+lines(length[1:1000],conf.lower4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower4[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper4[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, tt4, labels=tt4, cex= 1, pos=1)
+cal4=coef(fit4);cal4
+a4=cal4[1]+cal4[2]*10
+b4=cal4[1]+cal4[2]*20
+c4=cal4[1]+cal4[2]*30
+d4=cal4[1]+cal4[2]*40
+v3w=c(a4,b4,c4,d4)
+points(10,a4,col="red", bg = "red", lty=1,pch=c(24))
+points(20,b4,col="red", bg = "red", lty=1,pch=c(24))
+points(30,c4,col="red", bg = "red", lty=1,pch=c(24))
+points(40,d4,col="red", bg = "red", lty=1,pch=c(24))
+
+axis(4, ylim=c(33,39), col="red",col.axis="red",las=1)
+mtext("v3w Response time(ms)",side=4,line=2.5)
+
+
+axis(1,pretty(range(time),10))
+mtext("cable length",side=1,col="black",line=2.5) 
+
+
+
+
+legend(x = "bottom",inset = 1,
+        legend = c("linear fit","confidence limits","prediction limits","data","prediction value"), 
+        col=c("red","green","blue","black","red"),lwd=1, lty=c(1,2,2,NA,NA), pch=c(NA,NA,NA,16,17), cex=1, horiz = TRUE, merge=FALSE)
+
+
+
+
+
+
+
+
+
+
+
+
+

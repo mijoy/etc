@@ -1,0 +1,103 @@
+#library(plotrix)
+#x <- c(9.45, 8.78, 0.93, 0.47, 0.24, 0.12)
+#y <- c(10.72, 10.56, 10.35, 10.10, 9.13, 6.72)
+#z <- c(7.578, 7.456, 6.956, 6.712, 4.832, 3.345)
+#par(bty="n") # deleting the box
+#gap.plot(x,y, gap=c(2,7.5), gap.axis="x", pch=16,col="blue", ylim=range(c(y,z)), xtics=c(0:3,8:10), xticlab=c(0:3,8:10))
+#gap.plot(x,z, gap=c(2,7.5), gap.axis="x", pch=17, col="red", ylim=range(c(y,z)), add=TRUE); axis(2)
+#abline(v=seq(1.99,2.09,.001), col="white")  # hiding vertical lines
+#axis.break(1,2,style="slash")  
+#--------------------------------------------------------------------------------
+
+
+library(plotrix)
+
+
+
+
+
+
+options(digits=4)
+length = c(1,10,20,30,40,50,100)
+length2 = c(10,20,30,40)
+time2=c(0.026010,0.025885,0.025605,0.026700,0.026675,0.026300,0.026285)
+time4=c(0.035500,0.035610,0.035425,0.036125,0.035960,0.036390,0.035910)
+tt2<- time2*1000
+tt4<- time4*1000
+fit2 = lm(tt2~length)
+fit4 = lm(tt4~length)
+lmcoef<-coef(fit4)
+
+
+gap.plot(length,tt2, gap=c(30,33), gap.axis="y", ylim=range(c(23,39)), ytics=c(23:29,34:40), xlim=c(-5,105), col="black", lty=1,pch=c(19),main = 'SNMP Time Response TEST', ylab='Response time(ms)', xlab='cable length(m)')
+
+gap.plot(length,tt4, gap=c(30,33), gap.axis="y", ylim=range(c(23,29)), ytics=c(23:29,34:40) , pch=19, col="black", add=TRUE)
+
+
+abline(fit2,col="red",lwd=1)
+abline(lmcoef[1]-3,lmcoef[2],col="red",lwd=1)
+grid(10, 6, lty = "dotted")
+
+
+
+#
+pred.int2 = predict(fit2,level=.95,interval="prediction")
+conf.int2 = predict(fit2,level=.95,interval="confidence")
+pred.lower2 = pred.int2[,2]
+pred.upper2 = pred.int2[,3]
+conf.lower2 = conf.int2[,2]
+conf.upper2 = conf.int2[,3]
+#
+pred.int4 = predict(fit4,level=.95,interval="prediction")
+conf.int4 = predict(fit4,level=.95,interval="confidence")
+pred.int4<-pred.int4-3
+conf.int4<-conf.int4-3
+pred.lower4 = pred.int4[,2]
+pred.upper4 = pred.int4[,3]
+conf.lower4 = conf.int4[,2]
+conf.upper4 = conf.int4[,3]
+
+#
+lines(length[1:1000],conf.lower2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper2[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower2[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper2[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, tt2, labels=tt2, cex= 1, pos=1)
+cal2=coef(fit2);cal2
+a2=cal2[1]+cal2[2]*10
+b2=cal2[1]+cal2[2]*20
+c2=cal2[1]+cal2[2]*30
+d2=cal2[1]+cal2[2]*40
+v2c=c(a2,b2,c2,d2)
+points(10,a2,col="red", bg = "red", lty=5,pch=c(4))
+points(20,b2,col="red", bg = "red", lty=5,pch=c(4))
+points(30,c2,col="red", bg = "red", lty=5,pch=c(4))
+points(40,d2,col="red", bg = "red", lty=5,pch=c(4))
+#
+lines(length[1:1000],conf.lower4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],conf.upper4[1:1000],lty="dashed",lwd=2,col="green")
+lines(length[1:1000],pred.lower4[1:1000],lty="dashed",lwd=2,col="blue")
+lines(length[1:1000],pred.upper4[1:1000],lty="dashed",lwd=2,col="blue")
+text(length, (tt4-3), labels=tt4, cex= 1, pos=1)
+cal4=coef(fit4);cal4
+a4=cal4[1]+cal4[2]*10
+b4=cal4[1]+cal4[2]*20
+c4=cal4[1]+cal4[2]*30
+d4=cal4[1]+cal4[2]*40
+v3w=c(a4,b4,c4,d4)
+v3w=v3w-3
+points(10,a4-3,col="red", bg = "red", lty=5,pch=c(4))
+points(20,b4-3,col="red", bg = "red", lty=5,pch=c(4))
+points(30,c4-3,col="red", bg = "red", lty=5,pch=c(4))
+points(40,d4-3,col="red", bg = "red", lty=5,pch=c(4))
+
+
+
+
+
+
+
+
+
+
+

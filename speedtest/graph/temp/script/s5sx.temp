@@ -1,0 +1,67 @@
+pdf("s5sx.pdf")
+
+options(digits=4)
+
+length=c(50,100)
+
+v1=c(0.026552,0.026195)*1000 
+v2c=c(0.026300,0.026285)*1000 
+v3r=c(0.036100,0.036030)*1000 
+v3w=c(0.036390,0.035910)*1000 
+
+v1.temp=c(0.026190,0.026530)*1000 
+v2c.temp=c(0.026165,0.026275)*1000 
+v3r.temp=c(0.036170,0.036005)*1000 
+v3w.temp=c(0.036315,0.036135)*1000 
+
+
+
+
+
+layout(matrix(c(1,2,3,4,5,5),3,2, byrow=TRUE),widths=c(2,2), heights=c(3,3))
+par(oma=c(2, 2, 3, 1))
+par(mar=c(2,2,2,2))
+
+#v1
+plot(length, v1, main = 'v1', ylim=c(23,29), xlim=c(45,105), col="blue", lty=1,pch=c(3))
+points(length, v1.temp,col="red", lty=1,pch=c(4))
+text(length, v1, labels=v1, cex= 0.4, pos=2)
+text(length, v1.temp, labels=v1, cex= 0.4, pos=4)
+mtext("cable length", side=1, cex=0.7)
+mtext("Response time(ms)", side=2, cex=0.7)
+grid(10, 10, lty = "dotted")
+
+#v2c
+plot(length, v2c, main = 'v2c',ylim=c(23,29), xlim=c(45,105), col="blue", lty=1,pch=c(3))
+points(length, v2c.temp, col="red", lty=1,pch=c(4))
+text(length, v2c, labels=v2c, cex= 0.4, pos=2)
+text(length, v2c.temp, labels=v2c, cex= 0.4, pos=4)
+mtext("cable length", side=1, cex=0.7)
+mtext("Response time(ms)", side=2, cex=0.7)
+grid(10, 10, lty = "dotted")
+
+#v3r
+plot(length, v3r, main = 'v3r', ylim=c(33,39), xlim=c(45,105), col="blue", lty=1,pch=c(3))
+points(length, v3r.temp, col="red", lty=1,pch=c(4))
+text(length, v3r, labels=v3r, cex= 0.4, pos=2)
+text(length, v3r.temp, labels=v3r, cex= 0.4, pos=4)
+mtext("cable length", side=1, cex=0.7)
+mtext("Response time(ms)", side=2, cex=0.7)
+grid(10, 10, lty = "dotted")
+
+#v3w
+plot(length, v3w, main = 'v3w', ylim=c(33,39), xlim=c(45,105), col="blue", lty=1,pch=c(3))
+points(length, v3w.temp, col="red", lty=1,pch=c(4))
+text(length, v3w, labels=v3w, cex= 0.4, pos=2)
+text(length, v3w.temp, labels=v3w, cex= 0.4, pos=4)
+mtext("cable length", side=1, cex=0.7)
+mtext("Response time(ms)", side=2, cex=0.7)
+grid(10, 10, lty = "dotted")
+
+#legend
+plot(1, type = "n", axes=FALSE, xlab="", ylab="")
+legend(x = "bottom",inset = 0, legend = c("50","50_","100","100_"), col=c("blue","red","blue","red"), lwd=1, lty=c(NA,NA,NA,NA), pch=c(3,4,3,4), cex=1, horiz = TRUE, merge=FALSE)
+
+title("SNMP Speed Test(Temp)",sub="Switch2 configuration",side=3, line=1, cex=2,outer=TRUE)
+
+dev.off()

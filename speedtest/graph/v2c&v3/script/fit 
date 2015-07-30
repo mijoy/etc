@@ -1,0 +1,19 @@
+leng = c(1,50,100)
+length = c(1,10,20,30,40,50,100)
+length2 = c(10,20,30,40)
+tt1<- time1*1000
+tt3<- time3*1000
+tt2<- time2*1000
+tt4<- time4*1000
+fit2 = lm(tt2~length)
+fit4 = lm(tt4~length)
+fit1 = lm(tt1~length)
+fit3 = lm(tt3~length)
+
+summary(fit1)
+
+summary(fit2)
+
+summary(fit3)
+
+summary(fit4)

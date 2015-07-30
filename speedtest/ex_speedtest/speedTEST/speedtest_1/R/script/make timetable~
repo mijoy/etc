@@ -1,0 +1,52 @@
+<<timetable 만들기>>
+
+
+options(digits=5)
+
+data = read.table("/home/mijoy0909/new_speedtest/S1C1_100.txt")
+colnames(data)<-c("length","v1","v2c","v3r","v3w")
+attach(data)
+
+res1=lm(v1~length)
+res2=lm(v2c~length)
+res3=lm(v3r~length)
+res4=lm(v3w~length)
+
+cal1=coef(res1);cal1
+cal2=coef(res2);cal2
+cal3=coef(res3);cal3
+cal4=coef(res4);cal4
+
+a1=cal1[1]+cal1[2]*35
+b1=cal1[1]+cal1[2]*55
+c1=cal1[1]+cal1[2]*85
+
+a2=cal2[1]+cal2[2]*35
+b2=cal2[1]+cal2[2]*55
+c2=cal2[1]+cal2[2]*85
+
+a3=cal3[1]+cal3[2]*35
+b3=cal3[1]+cal3[2]*55
+c3=cal3[1]+cal3[2]*85
+
+a4=cal4[1]+cal4[2]*35
+b4=cal4[1]+cal4[2]*55
+c4=cal4[1]+cal4[2]*85
+
+z1 <-c(a1,b1,c1)
+z2 <-c(a2,b2,c2)
+z3 <-c(a3,b3,c3)
+z4 <-c(a4,b4,c4)
+
+x1<-c(v1,z1)
+x2<-c(v2c,z2)
+x3<-c(v3r,z3)
+x4<-c(v3w,z4)
+
+list(data)
+x1
+x2
+x3
+x4
+
+
